@@ -1,0 +1,6 @@
+{
+  "input_file": {
+    "class": "File",
+    "path": "file.txt"
+  }
+}
