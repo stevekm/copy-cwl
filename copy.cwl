@@ -4,6 +4,11 @@ cwlVersion: v1.0
 class: CommandLineTool
 baseCommand: cp
 
+requirements:
+  ResourceRequirement:
+    coresMin: 1
+    ramMin: 2000
+
 inputs:
   input_file:
     type: File
